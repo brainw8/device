@@ -1,1 +1,1 @@
-html site Barbershop adaptive design
+html site Device
