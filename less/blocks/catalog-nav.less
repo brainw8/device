@@ -9,17 +9,35 @@
 .catalog-nav__item{
   width: 160px;
   height: 240px;
+  float: left;
+  margin-right: 40px;
+}
+.catalog-nav__item:last-of-type {
+  margin-right: 0;
 }
 .catalog-nav__pic {
   height: 160px;
-  // background-color: @bg-yellow;
-}
-.catalog-nav__items  div:nth-of-type(2) {
-  background: @bg-yellow url(../img/popular-1.png) no-repeat center ;
-
 
 }
+.catalog-nav__pic--virtual   {
+  background:  @bg-yellow url(../img/popular-1.png) no-repeat center;
+}
+.catalog-nav__pic--monopod {
+  background:  @bg-yellow url(../img/popular-2.png) no-repeat bottom;
+}
+.catalog-nav__pic--actioncam {
+  background:  @bg-yellow url(../img/popular-3.png) no-repeat center;
+}
+.catalog-nav__pic--fitband {
+  background:  @bg-yellow url(../img/popular-4.png) no-repeat center;
+}
+.catalog-nav__pic--smartwatch {
+  background:  @bg-yellow url(../img/popular-5.png) no-repeat center;
+}
+.catalog-nav__pic--quadrocopter {
+  background:  @bg-yellow url(../img/popular-6.png) no-repeat center;
 
+}
 .catalog-nav__name {
   margin: 0;
   margin-top: 35px;
